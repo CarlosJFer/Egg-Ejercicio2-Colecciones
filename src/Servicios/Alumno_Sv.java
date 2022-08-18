@@ -28,6 +28,9 @@ public class Alumno_Sv {
             System.out.println("Ingrese el nombre del alumno");
             String nombres = leer.next();
             
+            System.out.println("Ingrese el apodo");
+            String apodo = leer.next();
+            
             System.out.println("Ingrese el apellido del alumno");
             String apellidoAlumno = leer.next();
             
