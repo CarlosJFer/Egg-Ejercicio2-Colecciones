@@ -26,7 +26,7 @@ public class Alumno_Sv {
             Alumno_Mt a1 = new Alumno_Mt();
             
             System.out.println("Ingrese el nombre del alumno");
-            String nombre = leer.next();
+            String nombres = leer.next();
             
             System.out.println("Ingrese el apellido del alumno");
             String apellidoAlumno = leer.next();
@@ -43,7 +43,7 @@ public class Alumno_Sv {
             System.out.println("Ingrese la tercer nota");
             int nota3 = leer.nextInt();
             
-            a1.setNombre(nombre);
+            a1.setNombre(nombres);
             a1.setApellido(apellidoAlumno);
             a1.setDni(dni);
             a1.setNota1(nota1);
